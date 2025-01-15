@@ -223,7 +223,7 @@ h1, h2, h3 {
 
 .contact-content {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .contact-text {
@@ -477,7 +477,7 @@ html {
 /* Update section heading */
 .contact-section h2 {
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
     font-size: 2rem;
     color: #2c3e50;
 }
@@ -485,7 +485,7 @@ html {
 /* Center all section headings */
 section h2 {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     font-size: 2rem;
     color: #2c3e50;
 }
@@ -493,11 +493,6 @@ section h2 {
 /* Specific adjustments for about section since it has a different layout */
 .about-section h2 {
     text-align: left;  /* Keep about section heading left-aligned since it's part of a flex container */
-}
-
-/* Remove the individual contact section heading style since it's now covered by the general rule */
-.contact-section h2 {
-    margin-bottom: 1.5rem;  /* Keep the specific margin for contact section */
 }
 
 /* Add styles for the download resume button */
